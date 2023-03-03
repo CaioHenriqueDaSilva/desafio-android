@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+
+            min-width: 300px; /* tamanho minimo q seria para um celular, ele vai de 800 ate 320 */
+            max-width: 800px; /* maximo do tamanho do conteudo main */
+            margin: auto;
+        }
+        img {
+            width: 100%; 
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsa facilis iusto dignissimos alias fugit fuga rem repudiandae amet eius. Similique exercitationem nostrum esse tenetur maxime sit, modi nisi ducimus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio eius nihil ipsam itaque accusamus necessitatibus cumque consectetur doloremque velit. Veniam facilis quia fugiat molestias dicta rem sit laboriosam explicabo nostrum.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. In praesentium distinctio inventore laborum asperiores eaque reprehenderit eligendi pariatur voluptatem debitis ex, quis doloribus magni modi laboriosam nihil, vel voluptas? Similique.</p>
+
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg"> <!-- quando a imagem chegar na largura de 500px ela quebra pra uma menor -->
+            <img src="imagens/irina-blok.jpg" alt=""> <!-- imagem origianl -->
+        
+        </picture>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsa facilis iusto dignissimos alias fugit fuga rem repudiandae amet eius. Similique exercitationem nostrum esse tenetur maxime sit, modi nisi ducimus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio eius nihil ipsam itaque accusamus necessitatibus cumque consectetur doloremque velit. Veniam facilis quia fugiat molestias dicta rem sit laboriosam explicabo nostrum.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. In praesentium distinctio inventore laborum asperiores eaque reprehenderit eligendi pariatur voluptatem debitis ex, quis doloribus magni modi laboriosam nihil, vel voluptas? Similique.</p>
+    </main>
+</body>
+</html>
